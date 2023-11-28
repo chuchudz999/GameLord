@@ -3,7 +3,7 @@ const router = express.Router();
 // utils
 const JwtUtil = require('../utils/JwtUtil');
 //daos
-const AdminDAO = require('../models/AdminDao');
+const AdminDAO = require('./models/AdminDao');
 // daos
 const CategoryDAO = require('../models/CategoryDAO');
 // daos
